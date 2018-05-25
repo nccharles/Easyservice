@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rw.ncccharles.zarimapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".limitless.limitlessapps.ussd.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".limitless.limitlessapps.ussd.AddService" />
+        <activity android:name=".limitless.limitlessapps.ussd.BasicInfo" />
+        <activity android:name=".limitless.limitlessapps.ussd.BillingAddress" />
+        <activity android:name=".limitless.limitlessapps.ussd.CallService" />
+        <activity android:name=".limitless.limitlessapps.ussd.ClientInfo" />
+        <activity android:name=".limitless.limitlessapps.ussd.ClientProfile" />
+        <activity android:name=".limitless.limitlessapps.ussd.ClientRegistration" />
+        <activity android:name=".limitless.limitlessapps.ussd.ClientServices" />
+        <activity android:name=".limitless.limitlessapps.ussd.Dashboard" />
+        <activity android:name=".limitless.limitlessapps.ussd.Home" />
+        <activity android:name=".limitless.limitlessapps.ussd.ProductInformation" />
+        <activity android:name=".limitless.limitlessapps.ussd.Favorite" />
+        <activity android:name=".limitless.limitlessapps.ussd.Settings" />
+        <activity android:name=".limitless.limitlessapps.ussd.SingleContact" />
+        <activity android:name=".limitless.limitlessapps.ussd.SplashScreen" />
+        <activity android:name=".limitless.limitlessapps.ussd.Contact" />
+        <activity android:name=".limitless.limitlessapps.ussd.Contacts" />
+        <activity android:name=".limitless.limitlessapps.ussd.MyService"></activity>
+    </application>
+
+</manifest>
